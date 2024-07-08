@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins" sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-style:italic;
+    scroll-padding: 0;
+    list-style-type: none;
+}
+body{
+  background-color: black;
+}
+.Home{
+  background-color:#4ddda8;
+  height: 30px;
+  width: 70px;
+  text-align: center;
+  border-radius: 3px;
+}
+h2{
+  color: black;
+}
+.nav{
+  height: 100px;
+  width: 100vw;
+  border-bottom: 3px solid #dedede;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  position: sticky;
+}
+ .nav, i{
+  padding: 0px;
+  color: black;
+  padding-right: 20px;
+  font-size: larger;
+}
+.icon{
+  display:  none;
+}
+.nav-part2{
+  display: flex;
+  gap: 4vw;
+  color: black;
+}
+.nav h2{
+  font-size: 2vw;
+  font-weight: 700;
+  color: black;
+  padding-right: 20vw;
+  padding-bottom: 0;
+  position: sticky;
+}
+.nav h4{
+  font-size: 2vw;
+  color: black;
+  border-radius: 2px;
+  position: sticky;
+}
+.nav h4:hover{
+  background-color: #4ddda8;
+  border-radius: 4px;
+  transition-duration: 1s;
+}
+p{
+  color: whitesmoke;
+  font-size: 3.3vw;
+  margin: 10px;
+}
+.lorem{
+  font-size: 18px;
+  color: whitesmoke;
+}
+button{
+  color: black;
+  font-size: 1.7vw;
+  border-radius: 2px;
+  border: #dedede;
+  height: 3.5vw;
+  background-color: #4ddda8;
+  width: 150px;
+  transition: all 0.5s;
+  margin: 5.5px;
+}
+button:hover{
+  padding-right: 28px;
+  transition-duration: 0.5s;
+}
+#logo{
+  font-size: 40vw;
+  height: 60px;
+  padding-left: 10px;
+}
+.main{
+  height: 80%;
+  width: 100%;
+  position: sticky;
+} 
+.drink{
+  margin: 6vw;
+  font-size: 2vw;
+  font-style:normal;
+  font-weight: 700;
+  color: black;
+}
+span{
+  color: lightseagreen;
+}
+.columns {
+  float: left;
+  width: 33.3%;
+}
+h1{
+color: whitesmoke;
+padding-left: 45vw;
+padding-top: 30px;
+}
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #111;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid white;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.price .grey {
+  background-color: rgb(33, 218, 171);
+  font-size: 20px;
+}
+.button {
+  background-color: #4ddda8;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+.button:hover{
+  background-color: aquamarine;
+  transition-duration: 1s;
+}
+.faqs{
+  font-size: 20px;
+  padding: 20px;
+  margin: 30px;
+}
+.datail{
+  font-size: 25px;
+  color: white;
+}
+.title{
+  color: white;
+  text-align: center;
+}
+summary{
+  color: white;
+}
+.Box{
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+}
+.text{
+  background: white;
+}
+.box{
+  background-color: #eee;
+  height: 30vw;
+  width: 60vw;
+  margin-left: 18%;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.text{
+   padding: 8px;
+   margin: 4vw;
+   border-radius: 4px;
+   border-color: transparent;
+}
+.button2{
+    padding-bottom: 30px;
+    padding-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    background: aquamarine;
+}
+.button2:hover{
+   opacity: 0.6;
+}
+text{
+  text-align: center;
+  padding-left: 40%;
+  font-size: 2.7vw;
+  font-style: normal;
+  background-color: #111;
+  overflow: hidden;
+   padding-right: 32%;
+   border-radius: 2.5px;
+   color: white;
+}
+.footer{
+  height: 40vh;
+  width: 99.95%;
+  margin-left: 0.5px;
+  background-color: #4ddda8;
+  border-radius: 3px;
+}
+.child1{
+  display: flex;
+  padding-top: 17vh;
+  padding-left: 70vh;
+  gap: 20px;
+  text-align: left;
+}
+#logoo{
+  height: 50px;
+}
+#link{
+  color: #111;
+}
+@media (max-width:600px){
+  .nav h4{
+    display: none;
+  }
+  h2{
+    display: none;
+  }
+  .Home{
+    background-color: lightseagreen;
+  }
+  .text{
+    margin: 2vw;
+  }
+  .button2{
+     height: 10px;
+     width: 10vw;
+  }
+  get{
+    display: none;
+  }
+  .icon{
+    display: block;
+  }
+  .nav h2{
+    font-size: large;
+  }
+  .nav{
+    background-color: lightseagreen;
+  }
+  button{
+    font-size: 17px;
+    height: 30px;
+  }
+   .drink{
+    width: 100%;
+    height: 50%;
+    padding: 4vw 6vw;
+   }
+   .drink, p{
+     font-size: 10vw;
+     line-height: 9vw;
+   }
+   .drink, .lorem{
+    font-size: 15px;
+    line-height: 4.5vw;
+   }
+   .columns{
+    flex-direction: row;  
+   }
+}
